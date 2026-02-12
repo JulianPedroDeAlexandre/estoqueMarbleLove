@@ -1,0 +1,41 @@
+:root{
+    --gold: #92750c;
+    --grey: #585955;
+    --white: #ede4de;
+}
+
+.celtop{
+    text-align: center;
+    border: 1px solid #92750c;
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    /* box-shadow: 0 0 10px rgb(180, 182, 187);   */
+    background-color: white; 
+}
+
+
+.infobotton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 5px 20px 5px 20px;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    background-color:#ede4de;
+    border: 1px solid #92750c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+h4, h3, i{
+    color: #585955;
+}

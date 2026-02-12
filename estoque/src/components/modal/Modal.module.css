@@ -1,0 +1,110 @@
+:root{
+    --gold: #92750c;
+    --grey: #585955;
+    --white: #ede4de;
+}
+.modal{
+    display: none;
+
+}
+.modal.ativa{
+    display: block;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #ede4de;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgb(180, 182, 187);    
+  max-width: 700px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
+
+.esq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* gap: 15px; */
+  /* flex: 1; */
+  min-width: 150px;
+}
+
+.esq label {
+  font-weight: 300;
+  font-size: 20px;
+  color: #585955;
+  margin: 15px 0 15px 0;
+}
+
+.dir {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  flex: 2;
+  min-width: 250px;
+}
+
+.dir input[type="text"],
+.dir input[type="number"],
+.dir input[type="file"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #92750c;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background-color: white;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.dir input:focus {
+  border-color: #92750c;
+  box-shadow: 0 0 10px rgb(180, 182, 187);    
+  outline: none;
+}
+
+.dir {
+  margin-top: 10px;
+  align-self: flex-start;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  /* background-color: #0077cc; */
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dir button:hover, .esq button:hover {
+  background-color: var(--white);
+}
+
+input[type="file"] {
+  background-color: #ede4de;
+  border: 1px dashed #92750c;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.enviar, .fechar{
+    height: 30px;
+    width: 60px;
+    background-color: white;
+}
+
+.fechar{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.enviar{
+    margin-left: 82%;
+}
