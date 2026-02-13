@@ -39,3 +39,21 @@
 h4, h3, i{
     color: #585955;
 }
+
+@media (max-width: 480px) {
+
+
+    .celtop {
+        width: 30vw;
+        margin: 5px;
+        margin: 5px;
+
+    }
+
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+
+
+}

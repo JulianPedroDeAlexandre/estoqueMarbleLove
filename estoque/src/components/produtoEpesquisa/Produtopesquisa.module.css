@@ -60,3 +60,16 @@ button:hover{
     background-color: var(--white);
 }
 
+@media (max-width: 480px) {
+    body {
+        padding-top: 50px; /* ajusta ao tamanho final do menu no mobile */
+    }
+
+    .indicadores {
+        width: 100%;
+        /* padding: 12px; */
+        /* top: 50%; */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

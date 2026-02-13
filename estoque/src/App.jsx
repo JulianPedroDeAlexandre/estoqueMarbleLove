@@ -127,7 +127,7 @@ function App() {
   );
 
 
-  const totalEstoque = produtos.reduce((acc, p) => acc + Number(p.estoque), 0) + " Unidades";
+  const totalEstoque = produtos.reduce((acc, p) => acc + Number(p.estoque), 0) + " UN";
   const totalGasto = produtos.reduce((acc, p) => acc + Number(p.compra) * Number(p.estoque), 0) + " R$";
   const totalReceber = produtos.reduce((acc, p) => acc + (Number(p.venda) * Number(p.estoque) - Number(p.compra) * Number(p.estoque)), 0) + " R$";
 

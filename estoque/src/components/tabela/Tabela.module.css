@@ -1,10 +1,11 @@
-:root{
+:root {
     --gold: #92750c;
     --grey: #585955;
     --white: #ede4de;
 }
 
-th, td{
+th,
+td {
     border: 1px solid var(--gold);
     padding: 5px;
     text-align: center;
@@ -15,25 +16,27 @@ th, td{
 
 }
 
-table{
+table {
     width: 85vw;
     /* box-shadow: 0 0 10px rgb(180, 182, 187);  */
     margin-bottom: 50px;
     margin-top: 250px;
-    
+
 }
 
-img{
+img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
 
-td{
+td {
     margin: auto;
 }
 
-button, #send, #close{
+button,
+#send,
+#close {
     border-radius: 5px;
     border: 1px solid var(--gold);
     padding: 2px 6px 2px 6px;
@@ -45,7 +48,7 @@ button, #send, #close{
 }
 
 
-.invalue{
+.invalue {
     width: 50px;
     border-radius: 5px;
     border: 1px solid var(--gold);
@@ -55,4 +58,21 @@ button, #send, #close{
     border: solid 1px var(--gold);
     color: var(--grey);
     cursor: pointer;
+}
+
+@media (max-width: 480px) {
+
+
+    th,
+    td {
+      
+        height: 50px;
+
+    }
+
+    table {
+        width: 95vw;
+
+
+    }
 }
