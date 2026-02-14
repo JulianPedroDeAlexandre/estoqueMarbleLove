@@ -63,10 +63,6 @@ button:hover {
 
 @media (max-width: 480px) {
 
-    .pesquisaadd {
-        margin-top: 70px;
-    }
-
     .addproduto,
     .pesq {
     width: 70px;
@@ -77,9 +73,13 @@ button:hover {
 .pesquisaadd{
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 95vw;
     align-items: center;
+    margin-top: 70px;
+
 }
+
+
 ::-webkit-input-placeholder {
     font-size: 9px;
 }
