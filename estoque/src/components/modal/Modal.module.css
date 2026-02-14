@@ -108,3 +108,61 @@ input[type="file"] {
 .enviar{
     margin-left: 82%;
 }
+
+
+
+@media (max-width: 480px) {
+
+
+  .container{
+    width: 95vw;
+  }
+
+
+
+.esq label {
+  font-weight: 300;
+  font-size: 9px;
+  margin: 12px 0 12px 0;
+  width: 100px;
+}
+
+.dir {
+  gap: 8px;
+  min-width: 100px;
+  padding: 0;
+}
+
+.dir input[type="text"],
+.dir input[type="number"],
+.dir input[type="file"] {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  font-size: 8px;
+  padding: 7px;
+ 
+}
+
+
+input[type="file"] {
+
+  padding: 10px;
+}
+
+.enviar, .fechar{
+    height: 30px;
+    width: 60px;
+}
+
+.fechar{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.enviar{
+  margin-top: 9px;
+    margin-left: 60%;
+}
+
+}

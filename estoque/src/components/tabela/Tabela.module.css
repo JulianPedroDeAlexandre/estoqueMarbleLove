@@ -65,14 +65,31 @@ button,
 
     th,
     td {
-      
         height: 50px;
+        font-size: 8px;
+        padding: 1px;
+        margin: 1px;
 
     }
-
     table {
         width: 95vw;
-
-
+        margin-top: 140px;
     }
+
+    button{
+    border-radius: 5px;
+    border: 1px solid var(--gold);
+    padding: 1px 3px 1px 3px;
+    margin: 1px;
+}
+
+.invalue{
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--gold);
+    padding: 1px 3px 1px 3px;
+    margin: 1.5px;
+   
+}
+
 }
