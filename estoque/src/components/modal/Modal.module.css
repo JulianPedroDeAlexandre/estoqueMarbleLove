@@ -157,12 +157,12 @@ input[type="file"] {
 
 .fechar{
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .enviar{
   margin-top: 6px;
-    margin-left: 60%;
+    margin-left: 69%;
 }
 
 }
