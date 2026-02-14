@@ -13,7 +13,6 @@ const Modal = ({envia, fecha, handleFile, cor, handleCor, nome, handleNome, codi
                 <label htmlFor="storage">Estoque</label>
                 <label htmlFor="price">Preço compra</label>
                 <label htmlFor="price-sell">Preço venda</label>
-                <button onClick={fecha} className={style.fechar}>Fechar</button>
             </div>
             <div className={style.dir}>
                 <input type="file" onChange={handleFile}></input>
@@ -23,8 +22,10 @@ const Modal = ({envia, fecha, handleFile, cor, handleCor, nome, handleNome, codi
                 <input type="number" value={estoque} onChange={handleEstoque}></input>
                 <input type="number" value={compra} onChange={handleCompra}></input>
                 <input type="number" value={venda} onChange={handleVenda}></input>
+            </div>
+            <div className={style.modalbtt}>
+                <button onClick={fecha} className={style.fechar}>Fechar</button>
                 <button onClick={envia} className={style.enviar}>Enviar</button>
-
             </div>
 
         </div>

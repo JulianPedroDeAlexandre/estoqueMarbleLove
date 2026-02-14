@@ -22,7 +22,7 @@ body{
     color: #585955;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
-    font-size: 9px;
+    /* font-size: 9px; */
 }
 
 .indicadores{
@@ -45,6 +45,7 @@ background-color: var(--gold);
 @media (max-width: 480px) {
     body {
         padding-top: 50px; /* ajusta ao tamanho final do menu no mobile */
+        font-size: 9px;
     }
 
     .indicadores {
