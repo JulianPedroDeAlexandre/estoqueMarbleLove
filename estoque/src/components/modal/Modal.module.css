@@ -146,13 +146,13 @@ input[type="file"] {
 
 
 input[type="file"] {
-
   padding: 10px;
 }
 
 .enviar, .fechar{
     height: 30px;
     width: 60px;
+    background-color: black;
 }
 
 .fechar{
@@ -162,7 +162,7 @@ input[type="file"] {
 
 .enviar{
   margin-top: 6px;
-    margin-left: 69%;
+    margin-left: 60%;
 }
 
 }
