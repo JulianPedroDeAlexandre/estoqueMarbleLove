@@ -66,13 +66,15 @@ button,
     th,
     td {
         height: 50px;
-        font-size: 8px;
+        font-size: 6.5px;
         padding: 1px;
         margin: 1px;
-
+        /* max-width: 40px; */
+         /* word-break: break-all; */
+         width: 20px;
     }
     table {
-        width: 95vw;
+        width: 99vw;
         margin-top: 140px;
     }
 
@@ -83,13 +85,27 @@ button,
     margin: 1px;
 }
 
+.invalue, button{
+    font-size: 8px;
+}
+
+
+
 .invalue{
-    width: 40px;
+    width: 20px;
     border-radius: 5px;
     border: 1px solid var(--gold);
     padding: 1px 3px 1px 3px;
     margin: 1.5px;
-   
+    text-align: center;
 }
+
+img{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+}
+
 
 }

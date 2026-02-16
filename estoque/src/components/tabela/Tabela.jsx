@@ -9,15 +9,15 @@ const Tabela = ({ produtos, defaultImage, valorEntrada, handleValorEntrada, addV
             <table id="tableAdd">
                 <thead>
                     <tr>
-                        <th>imagem</th>
-                        <th>cor</th>
-                        <th>nome</th>
+                        <th>Img</th>
+                        <th>Cor</th>
+                        <th>Nome</th>
                         <th>SKU</th>
-                        <th>estoque total</th>
+                        <th>Est Tot</th>
                         <th>+/-</th>
-                        <th>valor compra</th>
-                        <th>valor de venda</th>
-                        <th>valor total</th>
+                        <th>Compra</th>
+                        <th>Venda</th>
+                        <th>Total</th>
                         <th>Edit</th>
                     </tr>
                 </thead>
